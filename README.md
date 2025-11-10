@@ -1,94 +1,130 @@
-# [NextJS Tailwind Portfolio Page](http://demos.creative-tim.com/nextjs-tailwind-portfolio-page?ref=readme-ntpp) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page&text=Check%20Material%20Tailwind%202%20Template%20made%20by%20@CreativeTim%20#webdesign%20#template%20#materialdesign%20#react%20https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page)
+<h1 align="center">
+  vatsalsinghkv.vercel.app
+</h1>
+<p align="center">
+  A portfolio website i.e. <a href="https://vatsalsinghkv.vercel.app" target="_blank">vatsalsinghkv.vercel.app</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://vercel.com/" target="_blank">Vercel</a>
+</p>
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/nextjs-tailwind-portfolio-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/nextjs-tailwind-portfolio-page.svg)](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page/issues?q=is%3Aissue+is%3Aclosed)
+<p align="center">
+  <a href="https://choosealicense.com/licenses/mit/">
+    <img src="https://img.shields.io/badge/License-MIT-brightgreen"/ >
+  </a>
+  <img src="https://img.shields.io/badge/Version-2.0.0-blue"/ >
+</p>
 
-![Image](https://s3.amazonaws.com/creativetim_bucket/products/739/original/material-tailwind-react-portfolio-template-thumbnail.jpg?1697615979)
+<br>
 
-Introducing Tailwind Portfolio Page, a versatile and stylish portfolio template built on the foundation of Tailwind CSS and Material Tailwind.
+[![My Portfolio](https://user-images.githubusercontent.com/68834718/214532356-7c56cdbd-0136-4d24-a532-d27e160ae72d.png)](https://vatsalsinghkv.vercel.app/)
 
-Are you in search of a professionally designed and highly customizable portfolio web page template tailored for artists, designers, photographers, and creative professionals to showcase their work and establish a strong online presence? Look no further! We are excited to present to you our Free Portfolio Page Template, meticulously crafted to cater to the needs of portfolio website developers like you.
+## Table of Contents
 
-This template, designed with Tailwind CSS and Material Tailwind, offers effortless customization to align perfectly with your website's unique branding. The free portfolio template boasts essential features such as hero, logo, testimonial, and features sections.
+- [Sections](#sections)
+- [Built With](#built-with)
+- [How to use](#how-to-use)
+- [Contributing](#contributing)
+- [Continuous Development](#continuous-development)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
+- [Show Your Support](#show-your-support)
 
-**Documentation built by Developers**
+## Sections
 
-Each element is well presented in very complex documentation.
+- Hero
+- About
+- Skills
+- Experience
+- Projects
+- Contact
 
-You can read more about the [documentation here](https://www.material-tailwind.com/docs/react/installation).
+## Built With
 
-**HELPFUL LINKS**
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/) - For animations
+- [Iconify](https://icon-sets.iconify.design/) - For icons
+- [Lottie Files](https://lottiefiles.com/) - For illustrations
 
-- View [Github Repository](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page)
-- Check [FAQ Page](https://www.creative-tim.com/faq)
+## How to use
 
-## [Demo](https://creative-tim.com/product/nextjs-tailwind-portfolio-page)
+###### To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js (v20.18.0)](https://nodejs.org/en/download/) (which comes with [yarn](https://yarnpkg.com) installed on your computer).
 
-## Quick start
+1. Fork this repository and clone the project
 
-Quick start options:
+###### Please give me proper credit by linking back to [vatsalsinghkv.vercel.app](https://vatsalsinghkv.vercel.app).
 
-- Download from [Creative Tim](https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page?ref=readme-ntpp).
+```bash
+  git clone https://github.com/<YOUR USERNAME>/portfolio-website.git
+```
 
-## Terminal Commands
+2. Go to the project directory
 
-1. Download and Install NodeJs LTS version from [NodeJs Official Page](https://nodejs.org/en/download/).
-2. Navigate to the root ./ directory of the product and run `npm install` to install our local dependencies.
+```bash
+  cd portfolio-website
+```
 
-## Documentation
+3. Install dependencies
 
-The documentation for the Material Dashboard is hosted at our [website](https://www.material-tailwind.com/docs/react/installation?ref=readme-ntpp).
+```bash
+  yarn
+```
 
-## Browser Support
+4. Start the server
 
-At present, we officially aim to support the last two versions of the following browsers:
+```bash
+  yarn dev
+```
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+- To change the content, edit `src/lib/content/`
 
-## Resources
+- To change the **resume**, change `/public/resume.pdf` with your resume (name must be `resume.pdf`)
 
-- [Live Preview](https://demos.creative-tim.com/nextjs-tailwind-portfolio-page?ref=readme-ntpp)
-- [Download Page](https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page?ref=readme-ntpp)
-- Documentation is [here](https://www.material-tailwind.com/docs/react/installation?ref=readme-ntpp)
-- [License Agreement](https://www.creative-tim.com/license?ref=readme-ntpp)
-- [Support](https://www.creative-tim.com/contact-us?ref=readme-ntpp)
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/nextjs-tailwind-portfolio-page/issues)
-- [Nepcha Analytics](https://nepcha.com?ref=readme) - Analytics tool for your website
+- To change the **About Section**, edit `src/containers/About.tsx`
 
-## Reporting Issues
+- To change the theme, edit `src/styles/globals.css`
 
-We use GitHub Issues as the official bug tracker for the Nextjs + Tailwind Portfolio Page. Here are some advices for our users that want to report an issue:
+## Contributing
 
-1. Make sure that you are using the latest version of the Nextjs + Tailwind Portfolio Page. Check the CHANGELOG from your dashboard on our [website](https://www.creative-tim.com/product/nextjs-tailwind-portfolio-page?ref=readme-ntpp).
-2. Providing us reproducible steps for the issue will shorten the time it takes for it to be fixed.
-3. Some issues may be browser specific, so specifying in what browser you encountered the issue might help.
+###### Join Our Discord: [https://discord.gg/St2dHg9YwA](https://discord.gg/St2dHg9YwA)
 
-## Technical Support or Questions
+Remember, Good PR makes you a Good contributor!
 
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us?ref=readme-ntpp) instead of opening an issue.
+1. Run the project locally, refer [how to use](#how-to-use).
+2. Follow [Contributing Guidelines](/CONTRIBUTING.md).
 
-## Licensing
+<div align="center">
+  <a href="https://github.com/vatsalsinghkv/portfolio-website/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=vatsalsinghkv/portfolio-website" />
+  </a>
+</div>
 
-- Copyright 2023 [Creative Tim](https://www.creative-tim.com?ref=readme-ntpp)
-- Creative Tim [license](https://www.creative-tim.com/license?ref=readme-ntpp)
+## Continuous Development
 
-## Useful Links
+- [ ] Case Study Page
+- [x] Migrate to Next 13
+- [ ] Migrate icons from iconify to lucid-icons
+- [ ] Improve nav-link hover animation
+- [ ] Add test cases
+- [ ] Separate route (archive) for all the projects with filters
 
-- [More products](https://www.creative-tim.com/templates?ref=readme-ntpp) from Creative Tim
+## Contact
 
-- [Tutorials](https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w)
+- Discord - [https://discord.gg/St2dHg9YwA](https://discord.gg/St2dHg9YwA)
+- Website - [vatsalsinghkv.vercel.app](https://vatsalsinghkv.vercel.app)
+- Github - [@vatsalsinghkv](https://github.com/vatsalsinghkv)
+- LinkedIn - [@vatsalsinghkv](https://www.linkedin.com/in/vatsalsinghkv/)
+- Twitter - [@vatsalsinghkv](https://www.twitter.com/vatsalsinghkv)
+- Instagram - [@vatsalsinghkv](https://www.instagram.com/vatsalsinghkv)
+- Facebook - [@vatsalsinghkv](https://www.facebook.com/vatsal.singh.kv)
 
-- [Freebies](https://www.creative-tim.com/bootstrap-themes/free?ref=readme-ntpp) from Creative Tim
+## Acknowledgements
 
-- [Affiliate Program](https://www.creative-tim.com/affiliates/new?ref=readme-ntpp) (earn money)
+- [https://developer-portfolio-1hanzla100.vercel.app/](https://developer-portfolio-1hanzla100.vercel.app/) - Design Inspiration
+- [https://brittanychiang.com/](https://brittanychiang.com/) - Design Inspiration
+- [https://dev.to/andrewchmr/awesome-animated-cursor-with-react-hooks-5ec3](https://dev.to/andrewchmr/awesome-animated-cursor-with-react-hooks-5ec3) - Cursor Animation Inspiration
 
-##### Social Media
+## Show Your Support
 
-Twitter: <https://twitter.com/CreativeTim>
+Give a ⭐️ if you liked this project!
 
-Facebook: <https://www.facebook.com/CreativeTim>
-
-Dribbble: <https://dribbble.com/creativetim>
-
-Google+: <https://plus.google.com/+CreativetimPage>
-
-Instagram: <https://instagram.com/creativetimofficial>
+[Scroll to Top](#--vatsalsinghkvvercelapp)

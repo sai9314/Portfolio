@@ -1,29 +1,36 @@
-// components
-import { Navbar, Footer } from "@/components";
+import {
+  About,
+  Contact,
+  Experience,
+  FeaturedProjects,
+  Hero,
+  Layout,
+  Projects,
+  Skills,
+} from '@/containers';
 
-// sections
-import Hero from "./hero";
-import Clients from "./clients";
-import Skills from "./skills";
-import Projects from "./projects";
-import Resume from "./resume";
-import Testimonial from "./testimonial";
-import PopularClients from "./popular-clients";
-import ContactForm from "./contact-form";
+import type { NextPage } from 'next';
 
-export default function Portfolio() {
+/**
+ * TODO: Create separate page for all the projects with filters (vercel | netlify | github api for automation)
+ * TODO: Switch to next13 app dir feature, when lottie files start working in app dir
+ * TODO: Try test cases
+ */
+
+const Home: NextPage = () => {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Clients />
-      <Skills />
-      <Projects />
-      <Resume />
-      <Testimonial />
-      <PopularClients />
-      <ContactForm />
-      <Footer />
+      <Layout>
+        <Hero />
+        <About />
+        <Skills />
+        <Experience />
+        <FeaturedProjects />
+        <Projects />
+        <Contact />
+      </Layout>
     </>
   );
-}
+};
+
+export default Home;
